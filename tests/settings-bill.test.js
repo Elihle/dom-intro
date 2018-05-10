@@ -1,6 +1,6 @@
 describe("billSettings", function(){
 
-  it("Updates the value of one call then returns the total amount", function(){
+  it("Updates the value of one sms then returns the total amount", function(){
     var billSets = SettingsWithBill();
     billSets.setCostSms(0.75);
     billSets.setCritical(20);
